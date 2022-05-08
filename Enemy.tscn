@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="CylinderMesh" id=12]
+
+[sub_resource type="SpatialMaterial" id=13]
+albedo_color = Color( 1, 0, 0, 1 )
+
+[node name="Enemy" type="MeshInstance" groups=["Detectable"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.82816, 13.0463, -13.3846 )
+mesh = SubResource( 12 )
+material/0 = SubResource( 13 )
